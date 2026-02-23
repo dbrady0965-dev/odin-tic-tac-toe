@@ -21,6 +21,20 @@ const winningCombos = [
     [2, 4, 6] //diagonal top right to bottom left
 ];
 
+const gameboard = document.getElementById('gameboard');
+const playerXStatus = document.getElementById('player-x-status');
+const playerOStatus = document.getElementById('player-o-status');
+const playerXWins = document.getElementById('player-x-wins');
+const playerOWins = document.getElementById('player-o-wins');
+const playerXStats = document.getElementById('player-x-stats');
+const playerOStats = document.getElementById('player-o-stats');
+const playerDrawStats = document.getElementById('player-draw-stats');
+const resetBtn = document.getElementById('reset-button');
+const winnerMsg = document.getElementById('winner-message');
+const playerXCard = document.getElementById('player-x-card');
+const playerOCard = document.getElementById('player-o-card');
+const congrats = document.getElementById('congrats');
+
 /*
 const gameboard = {
     gameName: "Tic Tac Toe",
