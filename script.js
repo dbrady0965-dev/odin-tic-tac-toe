@@ -35,22 +35,6 @@ const playerXCard = document.getElementById('player-x-card');
 const playerOCard = document.getElementById('player-o-card');
 const congrats = document.getElementById('congrats');
 
-/*
-const gameboard = {
-    gameName: "Tic Tac Toe",
-    grid: [
-        ['X', 'O', 'X'],
-        ['O', 'X', 'O'],
-        ['X', 'O', 'X']
-    ],
-    players: 2
-};
-console.log(gameboard.grid);
-
-
-const playerName = {
-    player1: "Player 1",
-    player2: "Player 2"
-};
-console.log(playerName);
-*/
+function initGame() {
+    
+}
